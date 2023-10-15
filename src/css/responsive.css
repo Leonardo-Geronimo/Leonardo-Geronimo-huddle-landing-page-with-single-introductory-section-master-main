@@ -1,0 +1,54 @@
+@media (max-width: 975px) {
+    body {
+      background-image: url("/src/images/bg-mobile.svg");
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 100%;
+      min-height: 100vw;
+    }
+  
+    .header {
+      padding: 3rem;
+    }
+  
+    .header .logo .image-hud {
+      justify-content: flex-start;
+      max-width: 18rem;
+    }
+  
+    .main-content {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      padding: 3rem;
+    }
+  
+    .main-content .illustration {
+      max-width: 100%;
+    }
+  
+    .main-content .illustration .art-mockups {
+      max-width: 100%;
+      align-content: center;
+    }
+  
+    .main-content .hud-text {
+      padding: 0;
+    }
+  
+    .main-content .hud-text h1 {
+      font-size: 2.6rem;
+    }
+  
+    .main-content .hud-text .btn-register {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .redes {
+      justify-content: center;
+      padding: 3rem;
+      max-width: 100%;
+    }
+  }

@@ -1,0 +1,99 @@
+body {
+  background-color: var(--primary-medium);
+  font-family: var(--opens-sans);
+  background-image: url(/src/images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 800px;
+  width: 1440px;
+}
+
+.header {
+  padding: 5.3rem 0 0 6.9rem;
+}
+
+.header .logo {
+  height: 8rem;
+}
+
+.header .logo .image-hud {
+  height: 5.4rem;
+}
+
+.main-content {
+  display: flex;
+  padding: 6rem 8rem 0 7.3rem;
+  gap: 5.4rem;
+  margin-bottom: 2.1rem;
+}
+
+.main-content .hud-text {
+  padding-top: 4.4rem;
+}
+
+.main-content .hud-text h1 {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 5.9rem;
+  padding-bottom: 2.3rem;
+  color: #ffffff;
+}
+
+.main-content .hud-text p {
+  font-size: 18px;
+  line-height: 2.6rem;
+  padding-bottom: 2.4rem;
+  color: #ffffff;
+}
+
+
+.main-content .hud-text .btn-register {
+  height: 5.6rem;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  width: 20rem;
+  border: none;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  color: var(--primary-medium);
+  box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.21);
+  cursor: pointer;
+}
+
+.main-content .hud-text .btn-register:hover {
+  background: var(--primary-soft);
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.redes {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 7.8rem;
+}
+
+.redes .social-links {
+  display: inline-flex;
+  gap: 1.5rem;
+}
+
+.redes .social-links .fab {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 2rem;
+  width: 4.1rem;
+  height: 4.1rem;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+.redes .social-links .fab:hover {
+  border-color: var(--primary-soft);
+  transition: all 0.3s ease-in-out;
+}
+
+.redes .social-links .fab:hover {
+  color: var(--primary-soft);
+}

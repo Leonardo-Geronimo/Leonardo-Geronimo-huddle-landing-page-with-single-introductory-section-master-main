@@ -1,0 +1,9 @@
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --opens-sans: 'Open Sans', sans-serif;
+
+    --primary-medium: hsl(257, 40%, 49%);
+    --primary-soft: hsl(300, 69%, 71%);
+
+    font-size: 62.5%;
+}
